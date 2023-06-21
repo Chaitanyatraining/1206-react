@@ -39,6 +39,7 @@ function FuncComp(props) {
     return (
         <div>
             <h2>FuncComp</h2>
+            <h4>Today is wednesday</h4>
             <h4>Welcome to {courseName} and the Duration is {courseDuration}</h4>
             <div className='row'>
                 {
