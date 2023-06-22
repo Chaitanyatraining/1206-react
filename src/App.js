@@ -14,18 +14,21 @@ const App = () => {
       "name": "Leanne Graham",
       "username": "Bret",
       "email": "Sincere@april.biz",
+      "age": 20
     },
     {
       "id": 2,
       "name": "Ervin Howell",
       "username": "Antonette",
       "email": "Shanna@melissa.tv",
+      'age' :15
     },
     {
       "id": 3,
       "name": "Clementine Bauch",
       "username": "Samantha",
       "email": "Nathan@yesenia.net",
+      'age':30
     },
     {
       "id": 4,
@@ -38,6 +41,7 @@ const App = () => {
       "name": "Chelsey Dietrich",
       "username": "Kamren",
       "email": "Lucio_Hettinger@annie.ca",
+      'age':17
     },
   ]
 
@@ -47,7 +51,7 @@ const App = () => {
       <ClassComp /> */}
       {/* <Stylings /> */}
       <Header />
-      <FuncComp courseName='ReactJs' courseDuration='3Months' />
+      <FuncComp courseName='ReactJs' courseDuration='3Months' data={data} />
       {/* <Footer /> */}
     </center>
   )
