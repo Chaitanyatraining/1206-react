@@ -1,6 +1,9 @@
 What is react?
 what is virtual DOM?
+what is shadow DOM?
 what is diffing alogorithm and reconciliation?
 what is components and types
+difference between functional and class components?
 what is props
 what is state
+difference between props and state

@@ -1,0 +1,18 @@
+State : 
+    - The react was release in 2013 in JSconf as o open source
+    - never touch the DOM
+    - Any dom Manipulations will be done by React DOM
+    - fro bigger applications DOM Manipulations are very expensive 
+    - react has virtual DOM
+    - virtual DOM is a copy of Real DOM
+
+class components and functional components
+    - 2013 to 2019
+    - class components are statefull components
+    - class components has the react features like life cycle methods
+    - Making network calls will happen only in class components
+
+    functional components
+    - In 2019 (react 16) hooks was released
+    - Hooks are javascript functions which we can use state and life cycle in funcitonal 
+      components.

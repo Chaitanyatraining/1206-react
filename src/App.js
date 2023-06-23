@@ -47,11 +47,11 @@ const App = () => {
 
   return (
     <center>
-      {/* <Comptest />
-      <ClassComp /> */}
-      {/* <Stylings /> */}
       <Header />
-      <FuncComp courseName='ReactJs' courseDuration='3Months' data={data} />
+      {/* <Comptest /> */}
+      <ClassComp />
+      {/* <Stylings /> */}
+      {/* <FuncComp courseName='ReactJs' courseDuration='3Months' data={data} /> */}
       {/* <Footer /> */}
     </center>
   )
