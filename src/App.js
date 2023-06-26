@@ -5,6 +5,7 @@ import Stylings from './Stylings'
 import { Header } from './Components/Header'
 import Footer from './Components/Footer'
 import FuncComp from './Components/FuncComp'
+import ContactUs from './Components/ContactUs'
 
 const App = () => {
 
@@ -49,8 +50,9 @@ const App = () => {
     <center>
       <Header />
       {/* <Comptest /> */}
-      <ClassComp />
+      {/* <ClassComp /> */}
       {/* <Stylings /> */}
+      <ContactUs />
       {/* <FuncComp courseName='ReactJs' courseDuration='3Months' data={data} /> */}
       {/* <Footer /> */}
     </center>
