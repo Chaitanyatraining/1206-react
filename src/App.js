@@ -1,11 +1,6 @@
-import react from 'react'
-import Comptest from './Comptest'
-import ClassComp from './ClassComp'
-import Stylings from './Stylings'
 import { Header } from './Components/Header'
-import Footer from './Components/Footer'
-import FuncComp from './Components/FuncComp'
-import ContactUs from './Components/ContactUs'
+
+import Routing from './Components/Routing'
 
 const App = () => {
 
@@ -49,10 +44,11 @@ const App = () => {
   return (
     <center>
       <Header />
+      <Routing />
       {/* <Comptest /> */}
       {/* <ClassComp /> */}
       {/* <Stylings /> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
       {/* <FuncComp courseName='ReactJs' courseDuration='3Months' data={data} /> */}
       {/* <Footer /> */}
     </center>
