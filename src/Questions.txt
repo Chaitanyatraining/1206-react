@@ -7,3 +7,4 @@ difference between functional and class components?
 what is props
 what is state
 difference between props and state
+life cycle methods
