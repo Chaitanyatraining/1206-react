@@ -21,6 +21,9 @@ export const Header = () => {
           <Link to="/compdidmount" className="nav-link">Mounting</Link>
         </li>
         <li className="nav-item">
+          <Link to="/pagination" className="nav-link">Pagination</Link>
+        </li>
+        <li className="nav-item">
           <Link to="/contactUs" className="nav-link">ContactUs</Link>
         </li>
         <li className="nav-item">

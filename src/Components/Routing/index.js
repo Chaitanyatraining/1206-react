@@ -4,6 +4,7 @@ import ClassComp from '../../ClassComp'
 import ContactUs from '../ContactUs'
 import Home from '../Home'
 import CompDidMount from '../CompDidMount'
+import Pagination from '../Pagination'
 
 function Routing() {
   return (
@@ -13,6 +14,7 @@ function Routing() {
             <Route path='/classComp' element={<ClassComp />} />
             <Route path='/contactUs' element={<ContactUs /> } />
             <Route path='/compdidmount' element={<CompDidMount />} />
+            <Route path='/pagination' element={<Pagination />} />
         </Routes>
     </div>
   )
