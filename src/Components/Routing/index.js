@@ -5,6 +5,8 @@ import ContactUs from '../ContactUs'
 import Home from '../Home'
 import CompDidMount from '../CompDidMount'
 import Pagination from '../Pagination'
+import FuncCounterComp from '../FuncCounterComp'
+import FuncUserData from '../FuncUserData'
 
 function Routing() {
   return (
@@ -15,6 +17,8 @@ function Routing() {
             <Route path='/contactUs' element={<ContactUs /> } />
             <Route path='/compdidmount' element={<CompDidMount />} />
             <Route path='/pagination' element={<Pagination />} />
+            <Route path='/counterApp' element={<FuncCounterComp />} />
+            <Route path='/userdatafunc' element={<FuncUserData />} />
         </Routes>
     </div>
   )

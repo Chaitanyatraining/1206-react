@@ -48,7 +48,7 @@ class ContactUs extends Component {
         // 0,NaN ,'', undefined, flase, null, 
 
         if(firstNameErr || lastNameErr || emailErr || phoneErr){
-            this.setState({firstNameErr, lastNameErr, emailErr, phoneErr})
+            this.setState({firstNameErr:firstNameErr, lastNameErr, emailErr, phoneErr})
         }else{
             this.setState({firstNameErr, lastNameErr, emailErr, phoneErr})
         }

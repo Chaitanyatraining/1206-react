@@ -24,6 +24,12 @@ export const Header = () => {
           <Link to="/pagination" className="nav-link">Pagination</Link>
         </li>
         <li className="nav-item">
+          <Link to="/counterApp" className="nav-link">Counter App</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/userdatafunc" className="nav-link">UserDataUseEffect</Link>
+        </li>
+        <li className="nav-item">
           <Link to="/contactUs" className="nav-link">ContactUs</Link>
         </li>
         <li className="nav-item">
