@@ -30,6 +30,9 @@ export const Header = () => {
           <Link to="/userdatafunc" className="nav-link">UserDataUseEffect</Link>
         </li>
         <li className="nav-item">
+          <Link to="/userefhook" className="nav-link">UseRef Hook</Link>
+        </li>
+        <li className="nav-item">
           <Link to="/contactUs" className="nav-link">ContactUs</Link>
         </li>
         <li className="nav-item">
