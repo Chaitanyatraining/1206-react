@@ -8,6 +8,7 @@ import Pagination from '../Pagination'
 import FuncCounterComp from '../FuncCounterComp'
 import FuncUserData from '../FuncUserData'
 import UseRefHook from '../UseRefHook'
+import UseContextHook from '../UseContextHook'
 
 function Routing() {
   return (
@@ -21,6 +22,7 @@ function Routing() {
             <Route path='/counterApp' element={<FuncCounterComp />} />
             <Route path='/userdatafunc' element={<FuncUserData />} />
             <Route path='/userefhook' element={<UseRefHook />} />
+            <Route path='/usecontexthook' element={<UseContextHook />} />
         </Routes>
     </div>
   )

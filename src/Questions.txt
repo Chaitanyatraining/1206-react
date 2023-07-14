@@ -8,3 +8,5 @@ what is props
 what is state
 difference between props and state
 life cycle methods 
+
+what is props drilling?

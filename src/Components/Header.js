@@ -33,6 +33,9 @@ export const Header = () => {
           <Link to="/userefhook" className="nav-link">UseRef Hook</Link>
         </li>
         <li className="nav-item">
+          <Link to="/usecontexthook" className="nav-link">UseContext Hook</Link>
+        </li>
+        <li className="nav-item">
           <Link to="/contactUs" className="nav-link">ContactUs</Link>
         </li>
         <li className="nav-item">
