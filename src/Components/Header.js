@@ -36,6 +36,9 @@ export const Header = () => {
           <Link to="/usecontexthook" className="nav-link">UseContext Hook</Link>
         </li>
         <li className="nav-item">
+          <Link to="/usereducerhook" className="nav-link">UseReducer Hook</Link>
+        </li>
+        <li className="nav-item">
           <Link to="/contactUs" className="nav-link">ContactUs</Link>
         </li>
         <li className="nav-item">

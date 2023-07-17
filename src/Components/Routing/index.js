@@ -9,6 +9,7 @@ import FuncCounterComp from '../FuncCounterComp'
 import FuncUserData from '../FuncUserData'
 import UseRefHook from '../UseRefHook'
 import UseContextHook from '../UseContextHook'
+import UseReducerHook from '../UseReducerHook'
 
 function Routing() {
   return (
@@ -23,6 +24,7 @@ function Routing() {
             <Route path='/userdatafunc' element={<FuncUserData />} />
             <Route path='/userefhook' element={<UseRefHook />} />
             <Route path='/usecontexthook' element={<UseContextHook />} />
+            <Route path='/usereducerhook' element={<UseReducerHook />} />
         </Routes>
     </div>
   )
